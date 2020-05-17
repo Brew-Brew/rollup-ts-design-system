@@ -1,6 +1,6 @@
 {
   "name": "ts-rollup-storybook-system",
-  "version": "1.0.0",
+  "version": "1.0.13",
   "description": "",
   "main": "./build/index.js",
   "scripts": {

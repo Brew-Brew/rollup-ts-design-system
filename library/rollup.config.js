@@ -6,7 +6,7 @@ import postcss from "rollup-plugin-postcss";
 import image from "@rollup/plugin-image";
 
 export default {
-  input: "./src/index.ts",
+  input: "./index.ts",
   output: [
     {
       dir: "build",

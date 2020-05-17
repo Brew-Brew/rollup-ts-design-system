@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "./build/src",
+    "declarationDir": "./build",
     "baseUrl": "./",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -15,5 +15,5 @@
     "jsx": "react",
     "typeRoots": ["./src/typings"]
   },
-  "include": ["typings", "src"]
+  "include": ["typings"]
 }
