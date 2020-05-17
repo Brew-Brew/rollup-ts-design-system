@@ -8,7 +8,7 @@ export enum ButtonType {
   SECONDARY = "secondary",
 }
 
-interface IProps {
+export interface IProps {
   children: React.ReactNode;
   onClick?: React.MouseEventHandler;
   theme?: ButtonType;
