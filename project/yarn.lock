@@ -8700,6 +8700,10 @@ ts-pnp@1.1.6, ts-pnp@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.6.tgz#389a24396d425a0d3162e96d2b4638900fdc289a"
 
+ts-rollup-storybook-system@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ts-rollup-storybook-system/-/ts-rollup-storybook-system-1.0.0.tgz#8aece0d3a78608f36efc3109bcf13cb3af1d3a89"
+
 tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
