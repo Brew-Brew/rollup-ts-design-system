@@ -13,7 +13,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "react",
-    "typeRoots": ["./src/typings"]
+    "typeRoots": ["./typings"]
   },
   "include": ["typings"]
 }

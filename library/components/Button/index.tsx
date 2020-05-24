@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 
 import styles from "./style.module.scss";
 
@@ -14,8 +15,9 @@ export interface IProps {
   theme?: ButtonType;
 }
 
-const Button: React.FC<IProps> = ({ children }) => {
-  return <button className={styles.default}>{children}</button>;
+const Button: React.FC<IProps> = ({ children, theme = ButtonType.DEFAULT }) => {
+  const classNameProps = classNames(styles.default, styles[theme]);
+  return <button className={classNameProps}>{children}</button>;
 };
 
 export default Button;

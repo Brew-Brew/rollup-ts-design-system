@@ -1265,6 +1265,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/classnames@^2.2.10":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.10.tgz#cc658ca319b6355399efc1f5b9e818f1a24bf999"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -2461,6 +2465,10 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 clean-css@^4.2.3:
   version "4.2.3"
@@ -8700,9 +8708,9 @@ ts-pnp@1.1.6, ts-pnp@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.6.tgz#389a24396d425a0d3162e96d2b4638900fdc289a"
 
-ts-rollup-storybook-system@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/ts-rollup-storybook-system/-/ts-rollup-storybook-system-1.0.13.tgz#0ab27f90dd54a8cc1ec9127fe9f253963d869041"
+ts-rollup-storybook-system@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ts-rollup-storybook-system/-/ts-rollup-storybook-system-1.1.0.tgz#a1060fdfdc5b51209a1cb7390ba586c001cf4ef7"
 
 tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"

@@ -1,29 +1,16 @@
 import React from "react";
 
-// import Button from "ts-rollup-storybook-system/build/src/Button";
-import { Button } from "ts-rollup-storybook-system";
-
-import logo from "./logo.svg";
-import "./App.css";
+import Button, {
+  ButtonType,
+} from "ts-rollup-storybook-system/build/components/Button";
+// import { Button } from "ts-rollup-storybook-system";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button>버튼</Button>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Button>버튼</Button>
+      <Button theme={ButtonType.PRIMARY}>버튼</Button>
+      <Button theme={ButtonType.SECONDARY}>버튼</Button>
     </div>
   );
 }
