@@ -4,6 +4,7 @@ import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import commonjs from "@rollup/plugin-commonjs";
 import postcss from "rollup-plugin-postcss";
 import image from "@rollup/plugin-image";
+import postcssUrl from "postcss-url";
 
 export default {
   input: "./index.ts",
@@ -28,6 +29,11 @@ export default {
       extract: false,
       modules: true,
       use: ["sass"],
+      plugins: [
+        postcssUrl({
+          url: "inline",
+        }), // Copy to destination
+      ],
     }),
   ],
 };

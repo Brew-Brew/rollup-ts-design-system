@@ -3,7 +3,6 @@ import React from "react";
 import Button, {
   ButtonType,
 } from "ts-rollup-storybook-system/build/components/Button";
-// import { Button } from "ts-rollup-storybook-system";
 
 function App() {
   return (
